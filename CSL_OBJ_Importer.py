@@ -18,6 +18,7 @@
 
 # SPDX-License-Identifier: GPL-2.0-or-later
 # Copyright (C) 2026 liuhua520-svg
+# URL: https://github.com/liuhua520-svg/CSL_OBJ_Importer
 
 bl_info = {
     "name": "Cities Skylines OBJ Importer",
