@@ -16,6 +16,9 @@
 #
 # ##### END GPL LICENSE BLOCK #####
 
+# SPDX-License-Identifier: GPL-2.0-or-later
+# Copyright (C) 2026 liuhua520-svg
+
 bl_info = {
     "name": "Cities Skylines OBJ Importer",
     "author": "liuhua520-svg",
