@@ -58,6 +58,8 @@ translations_dict = {
         ("*", "Import specular texture (_s)"): "导入 specular 贴图 (_s)",
         ("*", "Flip X Axis (Mirror Fix)"): "反转 X 轴 (镜像修正)",
         ("*", "Clean vertex flip + normals (no negative scale)"): "干净翻转顶点 + 法线",
+        ("*", "Delete Negative Z Vertices"): "删除负 Z 坐标顶点",
+        ("*", "Delete vertices with Z < 0 (vertices with Z = 0 are kept)"): "删除 Z 坐标小于 0 的顶点（Z = 0 的顶点保留）",
     },
     "zh_TW": { # 繁體中文（台灣，你指定的「大都會：天際線」）
         ("*", "Cities Skylines OBJ Importer"): "大都會：天際線 OBJ 匯入器",
@@ -78,6 +80,8 @@ translations_dict = {
         ("*", "Import specular texture (_s)"): "匯入 specular 貼圖 (_s)",
         ("*", "Flip X Axis (Mirror Fix)"): "反轉 X 軸 (鏡像修正)",
         ("*", "Clean vertex flip + normals (no negative scale)"): "乾淨翻轉頂點 + 法線",
+        ("*", "Delete Negative Z Vertices"): "刪除負 Z 座標頂點",
+        ("*", "Delete vertices with Z < 0 (vertices with Z = 0 are kept)"): "刪除 Z 座標小於 0 的頂點（Z = 0 的頂點保留）",
     },
     "ja_JP": {
         ("*", "Cities Skylines OBJ Importer"): "シティーズ：スカイライン OBJ インポーター",
@@ -98,6 +102,8 @@ translations_dict = {
         ("*", "Import specular texture (_s)"): "スペキュラーテクスチャ (_s) をインポート",
         ("*", "Flip X Axis (Mirror Fix)"): "X軸反転 (ミラー修正)",
         ("*", "Clean vertex flip + normals (no negative scale)"): "頂点反転 + 法線修正 (負スケールなし)",
+        ("*", "Delete Negative Z Vertices"): "負のZ座標の頂点を削除",
+        ("*", "Delete vertices with Z < 0 (vertices with Z = 0 are kept)"): "Z座標が0未満の頂点を削除 (Z = 0 の頂点は残す)",
     },
     "fr_FR": {
         ("*", "Cities Skylines OBJ Importer"): "Importeur OBJ Cities Skylines",
@@ -118,6 +124,8 @@ translations_dict = {
         ("*", "Import specular texture (_s)"): "Importer texture spéculaire (_s)",
         ("*", "Flip X Axis (Mirror Fix)"): "Inverser Axe X (Correction Miroir)",
         ("*", "Clean vertex flip + normals (no negative scale)"): "Inversion propre des sommets + normales (pas d'échelle négative)",
+        ("*", "Delete Negative Z Vertices"): "Supprimer les sommets à Z négatif",
+        ("*", "Delete vertices with Z < 0 (vertices with Z = 0 are kept)"): "Supprimer les sommets dont Z < 0 (les sommets à Z = 0 sont conservés)",
     },
     "de_DE": {
         ("*", "Cities Skylines OBJ Importer"): "Cities Skylines OBJ-Importer",
@@ -138,6 +146,8 @@ translations_dict = {
         ("*", "Import specular texture (_s)"): "Specular-Textur (_s) importieren",
         ("*", "Flip X Axis (Mirror Fix)"): "X-Achse umkehren (Spiegelkorrektur)",
         ("*", "Clean vertex flip + normals (no negative scale)"): "Sauberes Vertex-Flip + Normalen (keine negative Skalierung)",
+        ("*", "Delete Negative Z Vertices"): "Vertices mit negativem Z löschen",
+        ("*", "Delete vertices with Z < 0 (vertices with Z = 0 are kept)"): "Vertices mit Z < 0 löschen (Vertices mit Z = 0 bleiben erhalten)",
     },
     "es_ES": {
         ("*", "Cities Skylines OBJ Importer"): "Importador OBJ Cities Skylines",
@@ -158,6 +168,8 @@ translations_dict = {
         ("*", "Import specular texture (_s)"): "Importar textura especular (_s)",
         ("*", "Flip X Axis (Mirror Fix)"): "Invertir Eje X (Corrección de Espejo)",
         ("*", "Clean vertex flip + normals (no negative scale)"): "Volteo limpio de vértices + normales (sin escala negativa)",
+        ("*", "Delete Negative Z Vertices"): "Eliminar vértices con Z negativa",
+        ("*", "Delete vertices with Z < 0 (vertices with Z = 0 are kept)"): "Eliminar vértices con Z < 0 (se conservan los de Z = 0)",
     },
     "pl_PL": {
         ("*", "Cities Skylines OBJ Importer"): "Importer OBJ Cities Skylines",
@@ -178,6 +190,8 @@ translations_dict = {
         ("*", "Import specular texture (_s)"): "Importuj teksturę specular (_s)",
         ("*", "Flip X Axis (Mirror Fix)"): "Odwróć oś X (Korekta lustra)",
         ("*", "Clean vertex flip + normals (no negative scale)"): "Czyste odwrócenie wierzchołków + normalne (bez negatywnej skali)",
+        ("*", "Delete Negative Z Vertices"): "Usuń wierzchołki z ujemnym Z",
+        ("*", "Delete vertices with Z < 0 (vertices with Z = 0 are kept)"): "Usuń wierzchołki z Z < 0 (wierzchołki z Z = 0 pozostają)",
     },
     "pt_BR": {
         ("*", "Cities Skylines OBJ Importer"): "Importador OBJ Cities Skylines",
@@ -198,6 +212,8 @@ translations_dict = {
         ("*", "Import specular texture (_s)"): "Importar textura especular (_s)",
         ("*", "Flip X Axis (Mirror Fix)"): "Inverter Eixo X (Correção de Espelho)",
         ("*", "Clean vertex flip + normals (no negative scale)"): "Inversão limpa de vértices + normais (sem escala negativa)",
+        ("*", "Delete Negative Z Vertices"): "Excluir vértices com Z negativo",
+        ("*", "Delete vertices with Z < 0 (vertices with Z = 0 are kept)"): "Excluir vértices com Z < 0 (vértices com Z = 0 são mantidos)",
     },
     "ru_RU": {
         ("*", "Cities Skylines OBJ Importer"): "Импортер OBJ Cities Skylines",
@@ -218,6 +234,8 @@ translations_dict = {
         ("*", "Import specular texture (_s)"): "Импортировать спекулярную текстуру (_s)",
         ("*", "Flip X Axis (Mirror Fix)"): "Перевернуть ось X (Исправление зеркала)",
         ("*", "Clean vertex flip + normals (no negative scale)"): "Чистый переворот вершин + нормали (без отрицательной шкалы)",
+        ("*", "Delete Negative Z Vertices"): "Удалить вершины с отрицательным Z",
+        ("*", "Delete vertices with Z < 0 (vertices with Z = 0 are kept)"): "Удалить вершины с Z < 0 (вершины с Z = 0 сохраняются)",
     },
     "ko_KR": {
         ("*", "Cities Skylines OBJ Importer"): "시티즈: 스카이라인 OBJ 임포터",
@@ -238,6 +256,8 @@ translations_dict = {
         ("*", "Import specular texture (_s)"): "스페큘러 텍스처 (_s) 가져오기",
         ("*", "Flip X Axis (Mirror Fix)"): "X축 뒤집기 (미러 수정)",
         ("*", "Clean vertex flip + normals (no negative scale)"): "정확한 버텍스 뒤집기 + 노멀 (음수 스케일 없음)",
+        ("*", "Delete Negative Z Vertices"): "음수 Z 좌표 버텍스 삭제",
+        ("*", "Delete vertices with Z < 0 (vertices with Z = 0 are kept)"): "Z 좌표가 0 미만인 버텍스 삭제 (Z = 0 버텍스는 유지)",
     },
     "tr_TR": {
         ("*", "Cities Skylines OBJ Importer"): "Cities Skylines OBJ İçe Aktarıcı",
@@ -258,6 +278,8 @@ translations_dict = {
         ("*", "Import specular texture (_s)"): "Specular doku (_s) içe aktar",
         ("*", "Flip X Axis (Mirror Fix)"): "X Ekseni Çevir (Ayna Düzeltme)",
         ("*", "Clean vertex flip + normals (no negative scale)"): "Temiz vertex çevirme + normal (negatif ölçek yok)",
+        ("*", "Delete Negative Z Vertices"): "Negatif Z Köşelerini Sil",
+        ("*", "Delete vertices with Z < 0 (vertices with Z = 0 are kept)"): "Z < 0 olan köşeleri sil (Z = 0 olanlar korunur)",
     },
 }
 
@@ -364,6 +386,7 @@ class IMPORT_OT_special_obj(bpy.types.Operator, ImportHelper):
     import_n: BoolProperty(name="Import _n (Normal Map)", description="Import normal map (_n)", default=True)
     import_s: BoolProperty(name="Import _s (Specular)", description="Import specular texture (_s)", default=True)
     flip_x_axis: BoolProperty(name="Flip X Axis (Mirror Fix)", description="Clean vertex flip + normals (no negative scale)", default=False)
+    delete_negative_z: BoolProperty(name="Delete Negative Z Vertices", description="Delete vertices with Z < 0 (vertices with Z = 0 are kept)", default=False)
 
     def execute(self, context):
         directory = self.directory
@@ -384,6 +407,20 @@ class IMPORT_OT_special_obj(bpy.types.Operator, ImportHelper):
                         for v in bm.verts:
                             v.co.x *= -1
                         bmesh.ops.reverse_faces(bm, faces=bm.faces)
+                        bm.to_mesh(obj.data)
+                        bm.free()
+                        obj.data.update()
+                    if self.delete_negative_z:
+                        # Blender 4.x 的 OBJ 导入器是用「物体旋转」做轴转换的，
+                        # 顶点本地坐标仍是 OBJ 原始坐标，所以必须换算成世界坐标再判断 Z
+                        context.view_layer.update()
+                        mw = obj.matrix_world.copy()
+                        bm = bmesh.new()
+                        bm.from_mesh(obj.data)
+                        # 仅删除世界 Z 严格小于 0 的顶点；Z = 0 的顶点保留（留出极小容差避免浮点误差）
+                        neg_verts = [v for v in bm.verts if (mw @ v.co).z < -1e-6]
+                        if neg_verts:
+                            bmesh.ops.delete(bm, geom=neg_verts, context='VERTS')
                         bm.to_mesh(obj.data)
                         bm.free()
                         obj.data.update()
